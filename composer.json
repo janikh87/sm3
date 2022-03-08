@@ -1,0 +1,21 @@
+{
+    "name": "janikh/sm3",
+    "description": "Supermetrics technical task",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Hubert Janik",
+            "email": "hubertjanik87@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+     "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*"
+     },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
